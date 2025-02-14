@@ -21,6 +21,8 @@ find_package(message_filters REQUIRED)
 
 set(msg_files
   "msg/ObjectOdometry.msg"
+  "msg/ObjectOdometryPath.msg"
+  "msg/MultiObjectOdometryPath.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
